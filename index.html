@@ -9,7 +9,7 @@
 <body>
     <div class="main-div">
         <div id="background-img">
-            <img src="form_img.jpg" alt="hiking page" width="600px" height="fill"/>
+            <img src="Images/form_img.jpg" alt="hiking page" width="600px" />
         </div>
         <div class="form-area">
             <div class="quote">
@@ -18,18 +18,30 @@
             </div>
             <div class="form">
                 <p>Let's do this!</p>
-                <label for="first-name"></label>
-                <input type="text" class="form-input" id="first-name" required placeholder="First Name">
-                <label for="last-name"></label>
-                <input type="text" class="form-input" id="last-name" required placeholder="Last Name">
-                <label for="email"></label>
-                <input type="email" class="form-input" id="email" required placeholder="example@gmail.com">
-                <label for="phone-number"></label>
-                <input type="text" class="form-input" id="phone-num" required placeholder="+251-939783454">
-                <label for="password"></label>
-                <input type="password" class="form-input" id="password" required placeholder="******">
-                <label for="confirm-pass"></label>
-                <input type="password" class="form-input" id="confirm-pass" required placeholder="******">
+                <div class="input-areas">
+                    <div class="form-content left">
+                        <label for="first-name">First Name</label><br>
+                        <input type="text" class="form-input" id="first-name" required placeholder="First Name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" class="form-input" id="email" required placeholder="example@gmail.com"><br>
+                        <label for="password">Password</label><br>
+                        <input type="password" class="form-input" id="password" required placeholder="############">
+                        
+                    </div>
+                    <div class="form-content right">
+                        <label for="last-name">Last Name</label><br>
+                        <input type="text" class="form-input" id="last-name" required placeholder="Last Name"><br>
+                        <label for="phone-number">Phone</label><br>
+                        <input type="text" class="form-input" id="phone-num" required placeholder="+251-939783454"><br>
+                        <label for="confirm-pass">Confirm password</label><br>
+                        <input type="password" class="form-input" id="confirm-pass" required placeholder="############"><br>
+                    </div>
+                </div>
+                
+                <!-- <div class="form-content">
+                    
+                    
+                </div>                                                -->
             </div>
             <div class="create-or-login">
                 <button class="btn">Create Account</button>
