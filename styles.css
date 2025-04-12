@@ -38,6 +38,27 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.image-by {
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-by > p {
+    font-size: 15px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link {
+    text-decoration: underline;
+    color: white;
+}
+
 .form-area {  
     width: 70%;
     height: 100vh;    
